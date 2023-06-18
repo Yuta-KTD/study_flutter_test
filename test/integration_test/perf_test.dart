@@ -4,7 +4,7 @@ import 'package:integration_test/integration_test.dart';
 import 'package:testing_app/main.dart';
 
 void main() {
-  group('Testing app Performance.', () {
+  group('Testing App Performance', () {
     final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
     binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
 
